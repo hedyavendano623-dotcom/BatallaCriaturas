@@ -42,12 +42,12 @@ public class Main {
 
         // Batalla 2: Mago vs Guerrero
         simularBatalla(
-                new Mago("Merlin", 100, 25, "bola de fuego"),
+                new Mago("Merlin", 100, 25),
                 new Guerrero("Conan", 120, 20, "hacha"));
 
         // Batalla 3: Dragon vs Mago
         simularBatalla(
                 new Dragon("Drogon", 150, 20, "escamas negras"),
-                new Mago("Gandalf", 100, 25, "rayo arcano"));
+                new Mago("Gandalf", 100, 25));
     }
 }
